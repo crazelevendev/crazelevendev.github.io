@@ -2,9 +2,26 @@
     height: 128px;
 }
 .logo{
+    display: flex;
     position: absolute;
+    width: auto;
     right: 0px;
-    padding-right: 0.44%;
+    margin-right: 0.44%;
+    align-content: center;
+}
+.lang{
+    display: inline;
+}
+.lo{
+    display: inline;
+}
+.linku{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    text-decoration: none;
+    font-size: 40px;
+    display: inline;
+    margin-top: 17%;
 }
 .menu{
     display: grid;
@@ -27,4 +44,49 @@
     text-decoration: none;
     font-size: 40px;
     padding-left: 0.44%;
+}
+.left{
+    position: absolute;
+    left: 0.37%;
+    width: 49.26%;
+    background-color: darkgrey;
+    border-radius: 50px 15px 50px 30px;
+    height: 97.5%;
+}
+.right{
+    position: absolute;
+    right: 0.37%;
+    width: 49.26%;
+    background-color: darkgray;
+    border-radius: 15px 50px 30px;
+    height: 97.5%;
+}
+#content{
+    padding-top: 0.45%;
+    margin-bottom: 0.45%;
+}
+.leftcontainer{
+    display: flex;
+    position: absolute;
+    margin-top: 1.1%;
+    margin-left: 1.1%;
+    width: 97%;
+    background-color: gray;
+    border-radius: 50px 15px 50px 30px;
+    align-content: center;
+}
+.icon{
+    width: 128px;
+    border-radius: 50px 15px 15px 30px;
+    padding: 5px;
+    display: inline;
+}
+.l{
+    text-decoration: none;
+    color: darkslateblue;
+    display: inline;
+}
+.sociallink{
+    color: black;
+    display: inline;
 }
