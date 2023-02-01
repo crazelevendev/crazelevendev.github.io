@@ -1,10 +1,10 @@
 @media screen {
     #logo {
         display: grid;
-        width: 8vw;
+        width: 10vw;
+        grid-template-columns: auto auto;
         position: absolute;
         right: 0;
-        justify-content: start;
     }
     #logo > img {
         max-width: 100%;
@@ -13,9 +13,10 @@
     #logo > a{
         text-decoration: none;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        padding-right: 0.5vw;
-        font-size: 1.5vw;
-        color: darkslateblue;
+        padding-right: 1vw;
+        font-size: 2vw;
+        color: black;
+        align-self: center;
     }
     #header {
         position: -webkit-sticky;
@@ -27,17 +28,19 @@
         grid-template-columns: auto auto;
     }
     #menu {
-        position:sticky;
+        display: grid;
+        grid-template-columns: auto auto;
+        position: sticky;
         left: 0;
         display: flex;
         align-items: center;
         justify-content: left;
     }
-    #menu > *{
+    #menu > a{
         text-decoration: none;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         padding-right: 0.5vw;
-        font-size: 1.5vw;
-        color: darkslateblue;
+        font-size: 2vw;
+        color: black;
     }
 }
