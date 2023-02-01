@@ -1,0 +1,43 @@
+@media screen {
+    #logo {
+        display: grid;
+        width: 8vw;
+        position: absolute;
+        right: 0;
+        justify-content: start;
+    }
+    #logo > img {
+        max-width: 100%;
+        height:auto;
+    }
+    #logo > a{
+        text-decoration: none;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        padding-right: 0.5vw;
+        font-size: 1.5vw;
+        color: darkslateblue;
+    }
+    #header {
+        position: -webkit-sticky;
+        position: sticky;
+        top:0;
+        display:grid;
+        width: 100%;
+        z-index: 10;
+        grid-template-columns: auto auto;
+    }
+    #menu {
+        position:sticky;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }
+    #menu > *{
+        text-decoration: none;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        padding-right: 0.5vw;
+        font-size: 1.5vw;
+        color: darkslateblue;
+    }
+}
