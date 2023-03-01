@@ -1,20 +1,18 @@
 @media screen {
     #logo {
         display: grid;
-        width: 10vw;
         grid-template-columns: auto auto;
         position: absolute;
-        right: 0;
+        right: 0.2vw;
     }
-    #logo > img {
-        max-width: 100%;
-        height:auto;
+    #logo > img{
+        width: 6.75vw;
     }
     #logo > a{
         text-decoration: none;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         padding-right: 1vw;
-        font-size: 2vw;
+        font-size: 3vw;
         color: black;
         align-self: center;
     }
@@ -25,6 +23,7 @@
         display:grid;
         width: 100%;
         z-index: 10;
+        height: 6.75vw;
         grid-template-columns: auto auto;
     }
     #menu {
@@ -40,7 +39,8 @@
         text-decoration: none;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         padding-right: 0.5vw;
-        font-size: 2vw;
+        font-size: 3vw;
         color: black;
     }
+    
 }
